@@ -1,12 +1,12 @@
 # Embedded Jetty template application
 
-This is a template for a web application that uses embedded Jetty. The sample code consists of a JSP (this page) and a simple servlet.
+This is a demo app running Railo4 on Heroku
 
 ## Running the application locally
 
 First build with:
 
-    $mvn clean install
+    $mvn clean package
 
 Then run it with:
 
