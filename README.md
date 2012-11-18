@@ -13,8 +13,13 @@ First build with:
 Then run it with:
 
     $java -cp "target/classes;target/dependency/*" com.example.Main
+	
+Then see your app at:
+
+    $http://localhost:8080
+	
     
-See the demo app at
+See the live demo app at:
 	
 	http://sleepy-depths-6628.herokuapp.com/
 
