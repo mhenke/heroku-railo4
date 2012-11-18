@@ -1,0 +1,7 @@
+Run server locally:
+
+mvn package
+
+java -cp "target/classes;target/dependency/*" com.example.Main
+
+
