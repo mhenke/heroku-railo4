@@ -22,4 +22,6 @@ Then see your app at:
 See the live demo app at:
 	
 	http://sleepy-depths-6628.herokuapp.com/
+	
+I have to thank Denny (denny@getrailo.com) for helping me figure out the railo repository	
 
