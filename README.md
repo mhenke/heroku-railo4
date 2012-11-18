@@ -8,15 +8,15 @@ This is a demo app running Railo4 on Heroku
 
 First build with:
 
-    $mvn clean package
+    mvn clean package
 
 Then run it with:
 
-    $java -cp "target/classes;target/dependency/*" com.example.Main
+    java -cp "target/classes;target/dependency/*" com.example.Main
 	
 Then see your app at:
 
-    $http://localhost:8080
+    http://localhost:8080
 	
     
 See the live demo app at:
