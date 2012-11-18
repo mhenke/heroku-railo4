@@ -83,6 +83,9 @@
               <includes>
                 <include>**/*</include>
               </includes>
+              <excludes>
+                <exclude>**/railo-server.xml</exclude>
+              </excludes>
               <followSymlinks>false</followSymlinks>
             </fileset>
             <fileset>
@@ -97,6 +100,9 @@
               <includes>
                 <include>**/*</include>
               </includes>
+              <excludes>
+                <exclude>**/railo-web.xml.cfm</exclude>
+              </excludes>
               <followSymlinks>false</followSymlinks>
             </fileset>
           </filesets>

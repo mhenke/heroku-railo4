@@ -8,7 +8,7 @@ Path placeholders:
 	{system-directory}: path to thesystem directory
 	{web-context-hash}: hash of the web context
 
---><railo-configuration version="2.0">
+--><railo-configuration password="039d16d16fb210a050abe0da2a7ba63b59357e4f397775ecfb87c46e19e0963b" version="2.0"><cfabort/>
 
 	<!--
 	system:
