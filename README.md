@@ -25,3 +25,11 @@ See the live demo app at:
 	
 I have to thank Denny (denny@getrailo.com) for helping me figure out the railo repository	
 
+References:
+	How to run the jetty embedded server:
+	http://wiki.eclipse.org/Jetty/Tutorial/Embedding_Jetty#Creating_a_Server
+
+	Install Railo on Jetty:
+	http://wiki.getrailo.org/wiki/installation:jetty
+
+	http://tuckey.org/urlrewrite/
