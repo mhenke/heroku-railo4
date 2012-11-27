@@ -18,6 +18,10 @@
 		<cfset validateOnUpdate("validateOnUpdateCalled")>
  		<cfif application.wheels.dataAdapter eq "oracle">
 			<cfset property(name="fullName", sql="users.firstname || ' ' || users.lastname")>
+		<cfelseif application.wheels.dataAdapter eq "mysql">
+			<cfset property(name="fullName", sql="concat(users.firstname, ' ', users.lastname)")>
+		<cfelseif application.wheels.dataAdapter eq "postgres">
+			<cfset property(name="fullName", sql="users.firstname || ' ' || users.lastname")>
 		<cfelse>
 			<cfset property(name="fullName", sql="users.firstname + ' ' + users.lastname")>
 		</cfif>
