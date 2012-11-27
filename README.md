@@ -38,3 +38,8 @@ Install Railo on Jetty:
 URL Rewrite:
 	
 	http://tuckey.org/urlrewrite/
+	
+Git Related (Examples):
+	git remote add heroku git@heroku.com:project.git
+	git remote rm heroku
+	http://edgar.tumblr.com/post/12610398221/how-to-link-your-git-project-with-an-existing-heroku
