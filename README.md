@@ -29,21 +29,21 @@ See the live demo app at:
 	
 I have to thank Denny (denny@getrailo.com) for helping me figure out the railo repository	
 
-= References:
+# References:
 
-How to run the jetty embedded server:
+## How to run the jetty embedded server:
 
 	http://wiki.eclipse.org/Jetty/Tutorial/Embedding_Jetty#Creating_a_Server
 
-Install Railo on Jetty:
+## Install Railo on Jetty:
 	
 	http://wiki.getrailo.org/wiki/installation:jetty
 
-URL Rewrite:
+## URL Rewrite:
 	
 	http://tuckey.org/urlrewrite/
 	
-Git Related (Examples):
+## Git Related (Examples):
 
 	git remote add heroku git@heroku.com:project.git
 	
@@ -51,10 +51,10 @@ Git Related (Examples):
 	
 	http://edgar.tumblr.com/post/12610398221/how-to-link-your-git-project-with-an-existing-heroku
 
-== Heroku
-=== Java on Heroku
+## Heroku
+### Java on Heroku
  http://java.heroku.com/
-=== Getting Started with Java on Heroku 
+### Getting Started with Java on Heroku 
  https://devcenter.heroku.com/articles/getting-started-with-heroku-eclipse#importing-an-existing-app-into-eclipse
-=== Getting Started with Heroku & Eclipse
+### Getting Started with Heroku & Eclipse
  https://devcenter.heroku.com/articles/java
