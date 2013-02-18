@@ -7,57 +7,56 @@ This is a demo app running Railo4 on Heroku
 ## Running the application locally
  1. Copy the items of the zip into your Heroku directory:
 
-	Example: file:///home/mhenke/git/heroku/intense-plateau-3730/src
+  Example: file:///home/mhenke/git/heroku/intense-plateau-3730/src
 
  1. First build with:
-    ```
-    mvn clean package
-    ```
+ ```
+ $ mvn clean package
+ ```
  1. Then run it with:
    
-    ```
-    linux: java -cp target/classes:target/dependency/* com.example.Main
-    ```
+ ```
+ $  linux: java -cp target/classes:target/dependency/* com.example.Main
+ ```
 	
  1. Then see your app at:
 
-    http://localhost:8080
+  http://localhost:8080
 	
  1. See the live demo app at:
-	
-	http://sleepy-depths-6628.herokuapp.com/
+    
+  http://sleepy-depths-6628.herokuapp.com/
 
 # Thanks
 	
-I have to thank Denny (denny@getrailo.com) for helping me figure out the railo repository	
+  I have to thank Denny (denny@getrailo.com) for helping me figure out the railo repository	
 
 # References:
 
 ## How to run the jetty embedded server:
 
-	http://wiki.eclipse.org/Jetty/Tutorial/Embedding_Jetty#Creating_a_Server
+  http://wiki.eclipse.org/Jetty/Tutorial/Embedding_Jetty#Creating_a_Server
 
 ## Install Railo on Jetty:
 	
-	http://wiki.getrailo.org/wiki/installation:jetty
+  http://wiki.getrailo.org/wiki/installation:jetty
 
 ## URL Rewrite:
 	
-	http://tuckey.org/urlrewrite/
+  http://tuckey.org/urlrewrite/
 	
 ## Git Related (Examples):
-    ```
-	git remote add heroku git@heroku.com:project.git
+```
+$ git remote add heroku git@heroku.com:project.git
+$ git remote rm heroku
+```	
 	
-	git remote rm heroku
-    ```	
-	
-	http://edgar.tumblr.com/post/12610398221/how-to-link-your-git-project-with-an-existing-heroku
+  http://edgar.tumblr.com/post/12610398221/how-to-link-your-git-project-with-an-existing-heroku
 
 ## Heroku
 ### Java on Heroku
- http://java.heroku.com/
+  http://java.heroku.com/
 ### Getting Started with Java on Heroku 
- https://devcenter.heroku.com/articles/getting-started-with-heroku-eclipse#importing-an-existing-app-into-eclipse
+  https://devcenter.heroku.com/articles/getting-started-with-heroku-eclipse#importing-an-existing-app-into-eclipse
 ### Getting Started with Heroku & Eclipse
- https://devcenter.heroku.com/articles/java
+  https://devcenter.heroku.com/articles/java
