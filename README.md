@@ -17,7 +17,7 @@ This is a demo app running Railo4 on Heroku
  1. Then run it with:
    
  ```
- $  linux: java -cp target/classes:target/dependency/* com.example.Main
+ $ java -cp target/classes:target/dependency/* com.example.Main
  ```
 	
  1. Then see your app at:
