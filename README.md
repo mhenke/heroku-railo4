@@ -5,27 +5,29 @@ This is a demo app running Railo4 on Heroku
 	Got to http://java.heroku.com/, create a "Containerless web app with Embedded Jetty"
 
 ## Running the application locally
-Copy the items of the zip into your Heroku directory:
+ 1. Copy the items of the zip into your Heroku directory:
 
 	Example: file:///home/mhenke/git/heroku/intense-plateau-3730/src
 
-First build with:
+ 1. First build with:
 
     mvn clean package
 
-Then run it with:
+ 1. Then run it with:
 
     java -cp "target/classes;target/dependency/*" com.example.Main
     
     linux: java -cp target/classes:target/dependency/* com.example.Main
 	
-Then see your app at:
+ 1. Then see your app at:
 
     http://localhost:8080
 	
-See the live demo app at:
+ 1. See the live demo app at:
 	
 	http://sleepy-depths-6628.herokuapp.com/
+
+# Thanks
 	
 I have to thank Denny (denny@getrailo.com) for helping me figure out the railo repository	
 
