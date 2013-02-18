@@ -10,14 +10,14 @@ This is a demo app running Railo4 on Heroku
 	Example: file:///home/mhenke/git/heroku/intense-plateau-3730/src
 
  1. First build with:
-
+    ```
     mvn clean package
-
+    ```
  1. Then run it with:
-
-    java -cp "target/classes;target/dependency/*" com.example.Main
-    
+   
+    ```
     linux: java -cp target/classes:target/dependency/* com.example.Main
+    ```
 	
  1. Then see your app at:
 
@@ -46,10 +46,11 @@ I have to thank Denny (denny@getrailo.com) for helping me figure out the railo r
 	http://tuckey.org/urlrewrite/
 	
 ## Git Related (Examples):
-
+    ```
 	git remote add heroku git@heroku.com:project.git
 	
 	git remote rm heroku
+    ```	
 	
 	http://edgar.tumblr.com/post/12610398221/how-to-link-your-git-project-with-an-existing-heroku
 
