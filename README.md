@@ -22,13 +22,14 @@ This is a demo app running Railo4 on Heroku
 	
  1. Then see your app at:
 
-    http://localhost:8080
+ http://localhost:8080
 	
  1. Deploy and see the live demo app at:
 
-    $ git push heroku master
-    
-    http://sleepy-depths-6628.herokuapp.com/
+ ```
+ $ git push heroku master
+ ```
+ http://sleepy-depths-6628.herokuapp.com/
 
 # Thanks
 	
