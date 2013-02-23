@@ -6,11 +6,14 @@ This is a demo app running Railo4 on Heroku
  1. Create a "Containerless web app with Embedded Jetty"
 
 ## Running the application locally
- 1. Copy the items of the heroku-railo projec into your Heroku directory:
+ 1. Copy the items of the heroku-railo project into your Heroku directory:
+ ```
+ $ git clone git://github.com/mhenke/heroku-railo4.git
+ ```
+  Example of heroku-railo project directory: /home/mhenke/heroku-railo4
+  Example of Heroku directory: /home/mhenke/git/heroku/intense-plateau-3730/src
 
-  Example: /home/mhenke/git/heroku/intense-plateau-3730/src
-
- 1. First build with:
+ 1. First build with in the heroku directory:
  ```
  $ mvn clean package
  ```
@@ -27,6 +30,8 @@ This is a demo app running Railo4 on Heroku
  1. Deploy and see the live demo app at:
 
  ```
+ $ git add .
+ $ git commit -m "first commit to heroku"
  $ git push heroku master
  ```
  http://sleepy-depths-6628.herokuapp.com/
