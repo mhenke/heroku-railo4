@@ -8,7 +8,7 @@ This is a demo app running Railo4 on Heroku
 ## Running the application locally
  1. Copy the items of the zip into your Heroku directory:
 
-  Example: file:///home/mhenke/git/heroku/intense-plateau-3730/src
+  Example: /home/mhenke/git/heroku/intense-plateau-3730/src
 
  1. First build with:
  ```
@@ -22,11 +22,13 @@ This is a demo app running Railo4 on Heroku
 	
  1. Then see your app at:
 
-  http://localhost:8080
+    http://localhost:8080
 	
- 1. See the live demo app at:
+ 1. Deploy and see the live demo app at:
+
+    $ git push heroku master
     
-  http://sleepy-depths-6628.herokuapp.com/
+    http://sleepy-depths-6628.herokuapp.com/
 
 # Thanks
 	
@@ -52,7 +54,7 @@ $ git remote add heroku git@heroku.com:project.git
 $ git remote rm heroku
 ```	
 	
-  http://edgar.tumblr.com/post/12610398221/how-to-link-your-git-project-with-an-existing-heroku
+    http://edgar.tumblr.com/post/12610398221/how-to-link-your-git-project-with-an-existing-heroku
 
 ## Heroku
 ### Java on Heroku
