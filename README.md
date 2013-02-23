@@ -66,6 +66,6 @@ $ git remote rm heroku
 ### Java on Heroku
   http://java.heroku.com/
 ### Getting Started with Java on Heroku 
-  https://devcenter.heroku.com/articles/getting-started-with-heroku-eclipse#importing-an-existing-app-into-eclipse
+  https://devcenter.heroku.com/articles/getting-started-with-heroku-eclipse
 ### Getting Started with Heroku & Eclipse
   https://devcenter.heroku.com/articles/java
