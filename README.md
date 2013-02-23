@@ -33,35 +33,26 @@ This is a demo app running Railo4 on Heroku
  $ git add .
  $ git commit -m "first commit to heroku"
  $ git push heroku master
+ $ heroku open
  ```
  http://sleepy-depths-6628.herokuapp.com/
 
 # Thanks
-	
   I have to thank Denny (denny@getrailo.com) for helping me figure out the railo repository	
 
 # References:
-
 ## How to run the jetty embedded server:
-
   http://wiki.eclipse.org/Jetty/Tutorial/Embedding_Jetty#Creating_a_Server
-
 ## Install Railo on Jetty:
-	
   http://wiki.getrailo.org/wiki/installation:jetty
-
 ## URL Rewrite:
-	
-  http://tuckey.org/urlrewrite/
-	
+  http://tuckey.org/urlrewrite/	
 ## Git Related (Examples):
 ```
 $ git remote add heroku git@heroku.com:project.git
 $ git remote rm heroku
 ```	
-	
-    http://edgar.tumblr.com/post/12610398221/how-to-link-your-git-project-with-an-existing-heroku
-
+http://edgar.tumblr.com/post/12610398221/how-to-link-your-git-project-with-an-existing-heroku
 ## Heroku
 ### Java on Heroku
   http://java.heroku.com/
