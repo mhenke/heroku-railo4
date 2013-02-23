@@ -5,7 +5,7 @@ This is a demo app running Railo4 on Heroku
  1. Go to http://java.heroku.com/
  1. Create a "Containerless web app with Embedded Jetty"
 
-## Running the application locally
+## Running the application
  1. Copy the items of the heroku-railo project into your Heroku directory:
  ```
  $ git clone git://github.com/mhenke/heroku-railo4.git
