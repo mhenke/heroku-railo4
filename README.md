@@ -6,7 +6,7 @@ This is a demo app running Railo4 on Heroku
  1. Create a "Containerless web app with Embedded Jetty"
 
 ## Running the application locally
- 1. Copy the items of the zip into your Heroku directory:
+ 1. Copy the items of the heroku-railo projec into your Heroku directory:
 
   Example: /home/mhenke/git/heroku/intense-plateau-3730/src
 
