@@ -2,21 +2,28 @@
 
 This is a demo app running Railo4 on Heroku
 
+## Create the application
  1. Go to http://java.heroku.com/
  1. Create a "Containerless web app with Embedded Jetty"
+ 1. Clone the Heroku App you created
+ ```
+ $ git clone -o heroku git@heroku.com:protected-reef-1480.git
+ ```
+  Example of Heroku directory: /home/mhenke/git/heroku/intense-plateau-3730/src
 
-## Running the application
+## Setup the application
  1. Copy the items of the heroku-railo project into your Heroku directory:
  ```
  $ git clone git://github.com/mhenke/heroku-railo4.git
  ```
   Example of heroku-railo project directory: /home/mhenke/heroku-railo4
-  Example of Heroku directory: /home/mhenke/git/heroku/intense-plateau-3730/src
 
+## Running the application
  1. First build with in the heroku directory:
  ```
  $ mvn clean package
  ```
+
  1. Then run it with:
    
  ```
@@ -24,11 +31,10 @@ This is a demo app running Railo4 on Heroku
  ```
 	
  1. Then see your app at:
-
  http://localhost:8080
-	
- 1. Deploy and see the live demo app at:
 
+## Deploying the application
+ 1. Deploy and see the live demo app at:
  ```
  $ git add .
  $ git commit -m "first commit to heroku"
