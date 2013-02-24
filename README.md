@@ -31,6 +31,7 @@ This is a demo app running Railo4 on Heroku
  ```
 	
  1. Then see your app at:
+ 
  http://localhost:8080
 
 ## Deploying the application
@@ -41,6 +42,7 @@ This is a demo app running Railo4 on Heroku
  $ git push heroku master
  $ heroku open
  ```
+
  http://sleepy-depths-6628.herokuapp.com/
 
 # Thanks
