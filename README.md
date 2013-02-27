@@ -16,8 +16,7 @@ This is a demo app running Railo4 on Heroku
 
  1. Download the heroku-railo project and unzip into your Heroku directory:
  ```
- $ cd intense-plateau-3730
- $ sudo wget -qO- -O tmp.zip https://github.com/mhenke/heroku-railo4/archive/master.zip && unzip tmp.zip && rm -f tmp.zip
+ $ sudo wget -qO- -O tmp.zip https://github.com/mhenke/heroku-railo4/archive/master.zip && unzip -qd . tmp.zip && rm -f tmp.zip && cp -R heroku-railo4-master/* whispering-earth-3665 && rm -r heroku-railo4-master
  ```
 
 ## Running the application
