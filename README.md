@@ -9,17 +9,16 @@ This is a demo app running Railo4 on Heroku
 ## Setup the application
  1. Clone the Heroku App you created
  ```
- $ git clone -o heroku git@heroku.com:protected-reef-1480.git
+ $ git clone -o heroku git@heroku.com:intense-plateau-3730.git
  ```
 
-  Example of Heroku directory: /home/mhenke/git/heroku/intense-plateau-3730/src
+  Example of Heroku directory: /home/mhenke/git/heroku/intense-plateau-3730/src/web
 
- 1. Copy the items of the heroku-railo project into your Heroku directory:
+ 1. Download the heroku-railo project and unzip into your Heroku directory:
  ```
- $ git clone git://github.com/mhenke/heroku-railo4.git
+ $ cd intense-plateau-3730/src/main/webapp
+ $ wget -qO- -O tmp.zip https://github.com/mhenke/heroku-railo4/archive/master.zip && unzip tmp.zip && rm tmp.zip
  ```
-
-  Example of heroku-railo project directory: /home/mhenke/heroku-railo4
 
 ## Running the application
  1. First build with in the heroku directory:
