@@ -24,9 +24,7 @@ This is a demo app running Railo4 on Heroku
   Example of Heroku directory: /home/mhenke/git/heroku/intense-plateau-3730
 
  1. Download the heroku-railo project and unzip into your Heroku directory:
- ```
- $ sudo wget -qO- -O tmp.zip https://github.com/mhenke/heroku-railo4/archive/master.zip && unzip -qd . tmp.zip && rm -f tmp.zip && cp -R heroku-railo4-master/* whispering-earth-3665 && rm -r heroku-railo4-master
- ```
+    $ sudo wget -qO- -O tmp.zip https://github.com/mhenke/heroku-railo4/archive/master.zip && unzip -qd . tmp.zip && rm -f tmp.zip && cp -R heroku-railo4-master/* whispering-earth-3665 && rm -r heroku-railo4-master
 
 ## Running the application
  1. First build with in the heroku directory:
