@@ -7,13 +7,14 @@ This is a demo app running Railo4 on Heroku
  1. Go to http://java.heroku.com/
  2. Create a "Containerless web app with Embedded Jetty"
  3. Clone the Heroku App you created
+
  ```
  $ git clone -o heroku git@heroku.com:intense-plateau-3730.git
  ```
 
 ### Option 2 
  1. Create a directory, initialize git in it, and create the Heroku App 
- 
+
  ```
  $ mkdir railo
  $ cd railo
@@ -26,10 +27,14 @@ This is a demo app running Railo4 on Heroku
   Example of Heroku directory: /home/mhenke/git/heroku/intense-plateau-3730
 
  1. Download the heroku-railo project and unzip into your Heroku directory:
-    $ sudo wget -qO- -O tmp.zip https://github.com/mhenke/heroku-railo4/archive/master.zip && unzip -qd . tmp.zip && rm -f tmp.zip && cp -R heroku-railo4-master/* whispering-earth-3665 && rm -r heroku-railo4-master
+
+ ```
+ $ sudo wget -qO- -O tmp.zip https://github.com/mhenke/heroku-railo4/archive/master.zip && unzip -qd . tmp.zip && rm -f tmp.zip && cp -R heroku-railo4-master/* whispering-earth-3665 && rm -r heroku-railo4-master
+ ```
 
 ## Running the application
  1. First build with in the heroku directory:
+
  ```
  $ mvn clean package
  ```
@@ -46,6 +51,7 @@ This is a demo app running Railo4 on Heroku
 
 ## Deploying the application
  1. Deploy and see the live demo app at:
+
  ```
  $ git add .
  $ git commit -m "first commit to heroku"
