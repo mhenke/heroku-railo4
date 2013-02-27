@@ -12,6 +12,8 @@ This is a demo app running Railo4 on Heroku
 
  -- OR --
  
+ 1. Create a directory, initialize git in it, and create the Heroku App 
+ 
  ```
  $ mkdir railo
  $ cd railo
