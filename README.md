@@ -9,14 +9,17 @@ This is a demo app running Railo4 on Heroku
  ```
  $ git clone -o heroku git@heroku.com:intense-plateau-3730.git
  ```
--- OR --
- 1. mkdir railo
- 1. cd railo
- 1. git init
- 1. heroku create
+
+ -- OR --
+ 
+ ```
+ $ mkdir railo
+ $ cd railo
+ $ git init
+ $ heroku create
+ ```
 
 ## Setup the application
-
 
   Example of Heroku directory: /home/mhenke/git/heroku/intense-plateau-3730
 
