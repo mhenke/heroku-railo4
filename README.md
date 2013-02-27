@@ -5,14 +5,20 @@ This is a demo app running Railo4 on Heroku
 ## Create the application
  1. Go to http://java.heroku.com/
  1. Create a "Containerless web app with Embedded Jetty"
-
-## Setup the application
  1. Clone the Heroku App you created
  ```
  $ git clone -o heroku git@heroku.com:intense-plateau-3730.git
  ```
+-- OR --
+ 1. mkdir railo
+ 1. cd railo
+ 1. git init
+ 1. heroku create
 
-  Example of Heroku directory: /home/mhenke/git/heroku/intense-plateau-3730/src/web
+## Setup the application
+
+
+  Example of Heroku directory: /home/mhenke/git/heroku/intense-plateau-3730
 
  1. Download the heroku-railo project and unzip into your Heroku directory:
  ```
