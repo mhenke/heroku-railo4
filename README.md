@@ -16,8 +16,8 @@ This is a demo app running Railo4 on Heroku
 
  1. Download the heroku-railo project and unzip into your Heroku directory:
  ```
- $ cd intense-plateau-3730/src/main/webapp
- $ wget -qO- -O tmp.zip https://github.com/mhenke/heroku-railo4/archive/master.zip && unzip tmp.zip && rm tmp.zip
+ $ cd intense-plateau-3730
+ $ sudo wget -qO- -O tmp.zip https://github.com/mhenke/heroku-railo4/archive/master.zip && unzip tmp.zip && rm tmp.zip
  ```
 
 ## Running the application
