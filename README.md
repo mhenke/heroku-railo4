@@ -53,7 +53,8 @@ This is a demo app running Railo4 on Heroku
 
 ## Deploying the application
  1. Deploy and see the live demo app at:
-
+  - if you used option 2 - the heroku-railo4 gitignore file isn't present in your heroku directory
+  -  ``` sudo wget https://raw.github.com/mhenke/heroku-railo4/master/.gitignore ```
  ```
  $ git add .
  $ git commit -m "first commit to heroku"
