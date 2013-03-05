@@ -19,13 +19,12 @@ This is a demo app running Railo4 on Heroku
  3. Clone the Heroku App you created
   
  ```
- $ git clone -o heroku git@heroku.com:intense-plateau-3730.git
+ $ git clone -o heroku git@heroku.com:intense-plateau-3730.git railo
  ```
 
 ## Setup the application
 
- - Option 1 of Heroku directory: /home/mhenke/git/heroku/railo
- - Option 2 of Heroku directory: /home/mhenke/git/heroku/intense-plateau-3730  
+ - Heroku directory: /home/mhenke/git/heroku/railo
 
  1. Download the heroku-railo project and unzip into your Heroku directory:
    - This command is ran beneath the Heroku directory: /home/mhenke/git/heroku
