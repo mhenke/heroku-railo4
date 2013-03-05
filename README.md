@@ -4,32 +4,31 @@ This is a demo app running Railo4 on Heroku
 
 ## Create the application
 ### Option 1
- 1. Go to http://java.heroku.com/
- 2. Create a "Containerless web app with Embedded Jetty"
- 3. Clone the Heroku App you created
-
- ```
- $ git clone -o heroku git@heroku.com:intense-plateau-3730.git
- ```
-
-### Option 2 
- 1. Create a directory, initialize git in it, and create the Heroku App 
+ 1. Create a directory and create heroku app
 
  ```
  $ mkdir railo
  $ cd railo
- $ git init
  $ heroku create
+ ```
+
+### Option 2 
+
+ 1. Go to http://java.heroku.com/
+ 2. Create a "Containerless web app with Embedded Jetty"
+ 3. Clone the Heroku App you created
+  
+ ```
+ $ git clone -o heroku git@heroku.com:intense-plateau-3730.git
  ```
 
 ## Setup the application
 
-  Option 1 of Heroku directory: /home/mhenke/git/heroku/intense-plateau-3730
-  
-  Option 2 of Heroku directory: /home/mhenke/git/heroku/railo
+  Option 1 of Heroku directory: /home/mhenke/git/heroku/railo
+  Option 2 of Heroku directory: /home/mhenke/git/heroku/intense-plateau-3730  
 
  1. Download the heroku-railo project and unzip into your Heroku directory:
-   - This command is ran beneath the Heroku directory
+   - This command is ran beneath the Heroku directory: /home/mhenke/git/heroku
 
  ```
  $ sudo wget -qO- -O tmp.zip https://github.com/mhenke/heroku-railo4/archive/master.zip && unzip -qd . tmp.zip && rm -f tmp.zip && cp -R heroku-railo4-master/* railo && rm -r heroku-railo4-master
@@ -48,22 +47,22 @@ This is a demo app running Railo4 on Heroku
  $ java -cp target/classes:target/dependency/* com.example.Main
  ```
 	
- 1. Then see your app at:
+ 1. Then see your app at http://localhost:8080
  
- http://localhost:8080
+ 1. Initial initalize git, add, and commit changes
 
-## Deploying the application
-  - if you used option 2 - the heroku-railo4 gitignore file isn't present in your heroku directory
-   -  ``` sudo wget https://raw.github.com/mhenke/heroku-railo4/master/.gitignore ```
-  1. Deploy and see the live demo app at:
  ```
+ $ git init
  $ git add .
  $ git commit -m "first commit to heroku"
+ ```
+
+ 1. Deploy and see the live demo app at:
+
+ ```
  $ git push heroku master
  $ heroku open
  ```
-
- http://sleepy-depths-6628.herokuapp.com/
 
 # Thanks
   I have to thank Denny (denny@getrailo.com) for helping me figure out the railo repository	
