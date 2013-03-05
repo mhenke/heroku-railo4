@@ -48,7 +48,7 @@ This is a demo app running Railo4 on Heroku
 	
  1. Then see your app at http://localhost:8080
  
- 1. Initial initalize git, add, and commit changes
+ 1. Initialize git, add, and commit changes
 
  ```
  $ git init
