@@ -24,8 +24,8 @@ This is a demo app running Railo4 on Heroku
 
 ## Setup the application
 
-  Option 1 of Heroku directory: /home/mhenke/git/heroku/railo
-  Option 2 of Heroku directory: /home/mhenke/git/heroku/intense-plateau-3730  
+ - Option 1 of Heroku directory: /home/mhenke/git/heroku/railo
+ - Option 2 of Heroku directory: /home/mhenke/git/heroku/intense-plateau-3730  
 
  1. Download the heroku-railo project and unzip into your Heroku directory:
    - This command is ran beneath the Heroku directory: /home/mhenke/git/heroku
