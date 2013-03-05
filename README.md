@@ -33,7 +33,7 @@ This is a demo app running Railo4 on Heroku
  $ sudo wget -qO- -O tmp.zip https://github.com/mhenke/heroku-railo4/archive/master.zip && unzip -qd . tmp.zip && rm -f tmp.zip && cp -R heroku-railo4-master/* railo && rm -r heroku-railo4-master
  ```
 
-## Running the application
+## Running locally and Deploying the application
  1. First build with in the heroku directory:
 
  ```
