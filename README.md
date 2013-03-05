@@ -40,14 +40,12 @@ This is a demo app running Railo4 on Heroku
  $ mvn clean package
  ```
 
- 1. Then run it with:
+ 1. Then run command below and see your app at http://localhost:8080
    
  ```
  $ java -cp target/classes:target/dependency/* com.example.Main
  ```
-	
- 1. Then see your app at http://localhost:8080
- 
+
  1. Initialize git, add, and commit changes
 
  ```
