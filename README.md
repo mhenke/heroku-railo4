@@ -27,7 +27,7 @@ This is a demo app running Railo4 on Heroku
  - Heroku directory: /home/mhenke/git/heroku/railo
 
  1. Download the heroku-railo project and unzip into your Heroku directory:
-   - This command is ran beneath the Heroku directory: /home/mhenke/git/heroku
+   - This command is ran beneath the Heroku directory in /home/mhenke/git/heroku
 
  ```
  $ sudo wget -qO- -O tmp.zip https://github.com/mhenke/heroku-railo4/archive/master.zip && unzip -qd . tmp.zip && rm -f tmp.zip && cp -R heroku-railo4-master/* railo && rm -r heroku-railo4-master
