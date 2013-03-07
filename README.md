@@ -36,12 +36,6 @@ This is a demo app running Railo4 on Heroku
  $ java -cp target/classes:target/dependency/* com.example.Main
  ```
 
- 1. Add the gitignore file
-
- ```
- $ sudo wget https://raw.github.com/mhenke/heroku-railo4/master/.gitignore
- ```
-
  1. Initialize git, add, and commit changes
 
  ```
