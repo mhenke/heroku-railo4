@@ -3,12 +3,10 @@
 This is a demo app running Railo4 on Heroku
 
 ## Create the application
- 1. Create a directory and create heroku app
+ 1. Create a directory for your application
 
  ```
  $ mkdir railo
- $ cd railo
- $ heroku create
  ```
 
 ## Setup the application
@@ -35,7 +33,7 @@ This is a demo app running Railo4 on Heroku
  $ java -cp target/classes:target/dependency/* com.example.Main
  ```
 
-##  Deploying the application
+##  Creating and Deploying the application
  1. Initialize git, add, and commit changes
 
  ```
@@ -44,6 +42,13 @@ This is a demo app running Railo4 on Heroku
  $ git commit -m "first commit to heroku"
  ```
 
+ 1. Create Heroku application
+
+ ```
+ $ heroku create
+ $ heroku open
+ ```
+ 
  1. Deploy and see the live demo app at:
 
  ```
