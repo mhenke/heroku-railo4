@@ -3,7 +3,6 @@
 This is a demo app running Railo4 on Heroku
 
 ## Create the application
-### Option 1
  1. Create a directory and create heroku app
 
  ```
@@ -23,7 +22,7 @@ This is a demo app running Railo4 on Heroku
  $ sudo wget -qO- -O tmp.zip https://github.com/mhenke/heroku-railo4/archive/master.zip && unzip -qd . tmp.zip && rm -f tmp.zip && cp -R heroku-railo4-master/* railo && rm -r heroku-railo4-master
  ```
 
-## Running locally and Deploying the application
+## Running locally
  1. First build with in the heroku directory:
 
  ```
@@ -36,6 +35,7 @@ This is a demo app running Railo4 on Heroku
  $ java -cp target/classes:target/dependency/* com.example.Main
  ```
 
+##  Deploying the application
  1. Initialize git, add, and commit changes
 
  ```
