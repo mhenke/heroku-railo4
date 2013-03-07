@@ -37,6 +37,7 @@ This is a demo app running Railo4 on Heroku
  1. Initialize git, add, and commit changes
 
  ```
+ $ sudo wget https://raw.github.com/mhenke/heroku-railo4/master/.gitignore
  $ git init
  $ git add .
  $ git commit -m "first commit to heroku"
