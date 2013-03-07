@@ -23,7 +23,7 @@ This is a demo app running Railo4 on Heroku
  ```
 
 ## Running locally
- 1. First build with in the heroku directory:
+ 1. First build within the heroku directory:
 
  ```
  $ mvn clean package
